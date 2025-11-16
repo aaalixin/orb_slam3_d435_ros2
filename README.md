@@ -91,3 +91,5 @@ ros2 topic list
 
 ![755092d38a8becf83a3853bc43ed918e](https://github.com/user-attachments/assets/825dbc9f-298b-480c-8f3c-d65fc8d7af3c)
 
+右上角就是/d435/camera_pose话题的数据，可以看到坐标和位姿数据都有
+
