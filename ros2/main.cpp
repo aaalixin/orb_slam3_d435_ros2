@@ -22,7 +22,7 @@ class ORB_SLAM3_Node : public rclcpp::Node
             depth_sub_.subscribe(this, "/d435/depth/image_raw");
                 
             sync_ = std::make_shared<message_filters::Synchronizer<MySyncPolicy>>(MySyncPolicy(10), rgb_sub_, depth_sub_);sync_->registerCallback(&ORB_SLAM3_Node::callback, this);
-            RCLCPP_INFO(this->get_logger(), "ORB-SLAM3 ROS2 Node initialized - Waiting for RGB-D images...");
+            RCLCPP_INFO(this->get_logger(), "SLAM初始化完成");
         }
     
         void initialize()
