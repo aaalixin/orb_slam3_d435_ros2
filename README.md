@@ -83,3 +83,8 @@ ros2 topic list
 /d435/current_points - 当前帧点云
 
 这几个slam的重要话题可以使用rviz2工具看效果
+
+下面是图片效果
+
+![755092d38a8becf83a3853bc43ed918e](https://github.com/user-attachments/assets/825dbc9f-298b-480c-8f3c-d65fc8d7af3c)
+
