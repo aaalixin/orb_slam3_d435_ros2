@@ -46,11 +46,9 @@ class ORB_SLAM3_Node : public rclcpp::Node
         }
     
     private:
-        // 同步策略 - 只有两个话题
         typedef message_filters::sync_policies::ApproximateTime<sensor_msgs::msg::Image,sensor_msgs::msg::Image> MySyncPolicy;
     
-        void callback(const sensor_msgs::msg::Image::ConstSharedPtr& rgb_msg,
-                      const sensor_msgs::msg::Image::ConstSharedPtr& depth_msg)
+        void callback(const sensor_msgs::msg::Image::ConstSharedPtr& rgb_msg,const sensor_msgs::msg::Image::ConstSharedPtr& depth_msg)
         {
             cv::Mat imRGB, imDepth;
             try
@@ -69,7 +67,7 @@ class ORB_SLAM3_Node : public rclcpp::Node
     
             double timestamp = rgb_msg->header.stamp.sec + rgb_msg->header.stamp.nanosec * 1e-9;
     
-            // 调用 ORB-SLAM3 处理 RGB-D（内参从 YAML 文件读取）
+            //从yaml获取内参
             SLAM_->TrackRGBD(imRGB, imDepth, timestamp);
             
             RCLCPP_DEBUG(this->get_logger(), "Processing frame at time: %f", timestamp);
