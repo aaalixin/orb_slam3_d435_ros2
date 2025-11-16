@@ -73,6 +73,8 @@ ros2 run d435_slam_ros2 d435_slam_node Vocabulary/ORBvoc.txt config/d435.yaml
 
 这样就可以运行ros2包了
 
+注意的是config下的d435.yaml里是d435的内参数据，使用时可以根据自己相机情况进行修改，python目录下的d435_put.py里就有获取内参的代码，在注释部分，是通过话题发布内参的，可以先取消注释运行py文件，订阅/d435/info就有相机内参，数据记录后再注释，这些内参在运行SLAM时不需要发布，注释可节省一定的算力，其实也没多少
+
 ros2 topic list
 
 可以看到
