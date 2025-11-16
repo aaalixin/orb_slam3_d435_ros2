@@ -14,10 +14,10 @@ class ORB_SLAM3_Node : public rclcpp::Node
     public:
         ORB_SLAM3_Node(const std::string& vocab_file, const std::string& config_file): Node("d435_slam_node")
         {
-            // 初始化 ORB-SLAM3 系统
+            // 初始化ORB_SLAM3
             SLAM_ = std::make_shared<ORB_SLAM3::System>(vocab_file, config_file, ORB_SLAM3::System::RGBD, true);
     
-            // 只订阅 RGB 和 Depth 图像
+            // 订阅彩色图和深度图
             rgb_sub_.subscribe(this, "/d435/color/image_raw");
             depth_sub_.subscribe(this, "/d435/depth/image_raw");
                 
@@ -25,10 +25,8 @@ class ORB_SLAM3_Node : public rclcpp::Node
             RCLCPP_INFO(this->get_logger(), "ORB-SLAM3 ROS2 Node initialized - Waiting for RGB-D images...");
         }
     
-        // 添加初始化函数，在构造完成后调用
         void initialize()
         {
-            // 关键：设置 ROS 节点，这样才能发布话题
             SLAM_->SetROSNode(shared_from_this());
             
             RCLCPP_INFO(this->get_logger(), "ROS publishers initialized!");
