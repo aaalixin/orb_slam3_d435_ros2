@@ -38,13 +38,17 @@ echo "Uncompress vocabulary ..."
 cd Vocabulary
 tar -xf ORBvoc.txt.tar.gz
 
-结束后执行cd ..回到工程包最外层路径执行colcon build
+结束后执行cd ..回到工程包最外层路径执行
+colcon build
 编译成功后，要运行这个包先在python目录下python3 d435_put.py来发布彩色图和深度图
 
 然后新开终端在包最外层目录执行sourse install/setup.bash
 # 设置库路径
+
 export LD_LIBRARY_PATH=/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/DBoW2/lib:$LD_LIBRARY_PATH
+
 export LD_LIBRARY_PATH=/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/lib:$LD_LIBRARY_PATH
+
 export LD_LIBRARY_PATH=/home/lx/catkin_ws/d435_slam_ros2/lib:$LD_LIBRARY_PATH
 
 # 然后运行
