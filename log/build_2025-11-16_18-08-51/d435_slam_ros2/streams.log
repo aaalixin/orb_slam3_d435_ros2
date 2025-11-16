@@ -1,0 +1,622 @@
+[0.005s] Invoking command in '/home/lx/catkin_ws/d435_slam_ros2/build/d435_slam_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lx/catkin_ws/d435_slam_ros2/build/d435_slam_ros2 -- -j32 -l32
+[0.045s] [ 50%] Built target g2o
+[0.057s] [35m[1mConsolidate compiler generated dependencies of target d435_slam_ros2[0m
+[0.125s] [ 96%] Built target d435_slam_ros2
+[0.133s] [35m[1mConsolidate compiler generated dependencies of target d435_slam_node[0m
+[0.150s] [ 98%] [32mBuilding CXX object CMakeFiles/d435_slam_node.dir/ros2/main.cpp.o[0m
+[2.436s] In file included from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:30[m[K,
+[2.436s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28[m[K,
+[2.436s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23[m[K,
+[2.436s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24[m[K,
+[2.437s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23[m[K,
+[2.437s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26[m[K,
+[2.437s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:54[m[K,
+[2.437s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:7[m[K:
+[2.437s] [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/ImuTypes.h:[m[K In member function ‘[01m[Kvoid ORB_SLAM3::IMU::Preintegrated::printMeasurements() const[m[K’:
+[2.437s] [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/ImuTypes.h:204:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<ORB_SLAM3::IMU::Preintegrated::integrable>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.437s]   204 |         for(int i=0; [01;35m[Ki<mvMeasurements.size()[m[K; i++){
+[2.437s]       |                      [01;35m[K~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.476s] In file included from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[2.476s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Converter.h:26[m[K,
+[2.476s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:33[m[K,
+[2.476s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28[m[K,
+[2.476s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23[m[K,
+[2.476s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24[m[K,
+[2.476s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23[m[K,
+[2.476s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26[m[K,
+[2.476s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:54[m[K,
+[2.476s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:7[m[K:
+[2.476s] [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/../core/base_vertex.h:[m[K At global scope:
+[2.476s] [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:74:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.476s]    62 | pedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[2.476s]       |                                                                    [01;35m[K^~~~~~~~~~[m[K
+[2.476s] 
+[2.476s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[2.476s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[2.476s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[2.476s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[2.476s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[2.476s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:28[m[K,
+[2.476s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28[m[K,
+[2.476s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23[m[K,
+[2.476s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24[m[K,
+[2.476s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23[m[K,
+[2.476s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26[m[K,
+[2.476s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:54[m[K,
+[2.477s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:7[m[K:
+[2.477s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.477s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[2.477s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[2.485s] In file included from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[2.485s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Converter.h:26[m[K,
+[2.486s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:33[m[K,
+[2.486s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28[m[K,
+[2.486s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23[m[K,
+[2.486s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24[m[K,
+[2.486s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23[m[K,
+[2.486s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26[m[K,
+[2.486s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:54[m[K,
+[2.486s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:7[m[K:
+[2.486s] [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:82:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.486s]    59 | Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[2.486s]       |                                                                    [01;35m[K^~~~~~~~~~[m[K
+[2.486s] 
+[2.486s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[2.486s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[2.486s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[2.486s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[2.486s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[2.486s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:28[m[K,
+[2.486s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28[m[K,
+[2.486s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23[m[K,
+[2.486s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24[m[K,
+[2.486s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23[m[K,
+[2.486s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26[m[K,
+[2.486s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:54[m[K,
+[2.486s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:7[m[K:
+[2.486s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.486s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[2.486s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[2.486s] In file included from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[2.486s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Converter.h:26[m[K,
+[2.486s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:33[m[K,
+[2.486s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28[m[K,
+[2.486s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23[m[K,
+[2.486s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24[m[K,
+[2.486s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23[m[K,
+[2.486s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26[m[K,
+[2.486s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:54[m[K,
+[2.486s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:7[m[K:
+[2.486s] [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:82:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.487s]    60 | Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[2.487s]       |                                                                    [01;35m[K^~~~~~~~~~[m[K
+[2.487s] 
+[2.487s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[2.487s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[2.487s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[2.487s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[2.487s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[2.487s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:28[m[K,
+[2.487s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28[m[K,
+[2.487s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23[m[K,
+[2.487s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24[m[K,
+[2.487s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23[m[K,
+[2.487s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26[m[K,
+[2.487s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:54[m[K,
+[2.487s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:7[m[K:
+[2.487s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.487s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[2.487s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[2.661s] In file included from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[2.661s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Converter.h:26[m[K,
+[2.661s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:33[m[K,
+[2.661s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28[m[K,
+[2.661s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23[m[K,
+[2.661s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24[m[K,
+[2.661s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23[m[K,
+[2.661s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26[m[K,
+[2.661s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:54[m[K,
+[2.661s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:7[m[K:
+[2.661s] /home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<3, Eigen::Matrix<double, 3, 1> >[m[K’:
+[2.661s] [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/types_sba.h:40:35:[m[K   required from here
+[2.661s] [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.661s]    62 | typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[2.661s]       |                                                              [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[2.661s] 
+[2.661s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[2.661s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[2.661s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[2.661s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[2.661s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[2.661s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:28[m[K,
+[2.661s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28[m[K,
+[2.661s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23[m[K,
+[2.661s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24[m[K,
+[2.661s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23[m[K,
+[2.661s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26[m[K,
+[2.661s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:54[m[K,
+[2.661s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:7[m[K:
+[2.661s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.661s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[2.661s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[2.672s] In file included from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[2.672s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Converter.h:26[m[K,
+[2.672s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:33[m[K,
+[2.672s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28[m[K,
+[2.672s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23[m[K,
+[2.672s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24[m[K,
+[2.672s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23[m[K,
+[2.672s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26[m[K,
+[2.673s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:54[m[K,
+[2.673s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:7[m[K:
+[2.673s] /home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<6, g2o::SE3Quat>[m[K’:
+[2.673s] [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:59:33:[m[K   required from here
+[2.673s] [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.673s]    62 | typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[2.673s]       |                                                              [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[2.673s] 
+[2.673s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[2.673s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[2.673s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[2.673s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[2.673s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[2.673s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:28[m[K,
+[2.673s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28[m[K,
+[2.673s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23[m[K,
+[2.673s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24[m[K,
+[2.673s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23[m[K,
+[2.673s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26[m[K,
+[2.673s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:54[m[K,
+[2.673s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:7[m[K:
+[2.673s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.673s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[2.673s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[2.685s] In file included from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[2.685s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Converter.h:26[m[K,
+[2.685s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:33[m[K,
+[2.685s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28[m[K,
+[2.685s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23[m[K,
+[2.685s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24[m[K,
+[2.685s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23[m[K,
+[2.685s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26[m[K,
+[2.685s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:54[m[K,
+[2.685s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:7[m[K:
+[2.685s] /home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<6, g2o::SE3Quat, g2o::VertexSE3Expmap, g2o::VertexSE3Expmap>[m[K’:
+[2.685s] [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:83:24:[m[K   required from here
+[2.685s] [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.685s]    59 | f Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[2.685s]       |                                                              [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[2.685s] 
+[2.685s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[2.685s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[2.685s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[2.685s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[2.685s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[2.685s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:28[m[K,
+[2.685s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28[m[K,
+[2.685s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23[m[K,
+[2.685s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24[m[K,
+[2.685s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23[m[K,
+[2.685s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26[m[K,
+[2.685s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:54[m[K,
+[2.685s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:7[m[K:
+[2.685s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.685s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[2.685s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[2.685s] In file included from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[2.685s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Converter.h:26[m[K,
+[2.685s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:33[m[K,
+[2.685s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28[m[K,
+[2.685s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23[m[K,
+[2.685s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24[m[K,
+[2.685s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23[m[K,
+[2.686s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26[m[K,
+[2.686s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:54[m[K,
+[2.686s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:7[m[K:
+[2.686s] [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.686s]    60 | f Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[2.686s]       |                                                              [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[2.686s] 
+[2.686s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[2.686s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[2.686s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[2.686s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[2.686s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[2.686s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:28[m[K,
+[2.686s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28[m[K,
+[2.686s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23[m[K,
+[2.686s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24[m[K,
+[2.686s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23[m[K,
+[2.686s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26[m[K,
+[2.686s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:54[m[K,
+[2.686s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:7[m[K:
+[2.686s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.686s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[2.686s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[2.713s] In file included from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[2.713s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Converter.h:26[m[K,
+[2.713s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:33[m[K,
+[2.713s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28[m[K,
+[2.713s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23[m[K,
+[2.713s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24[m[K,
+[2.713s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23[m[K,
+[2.713s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26[m[K,
+[2.713s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:54[m[K,
+[2.713s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:7[m[K:
+[2.713s] /home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>[m[K’:
+[2.714s] [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:114:35:[m[K   required from here
+[2.714s] [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.714s]    59 | f Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[2.714s]       |                                                              [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[2.714s] 
+[2.714s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[2.714s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[2.714s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[2.714s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[2.714s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[2.714s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:28[m[K,
+[2.714s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28[m[K,
+[2.714s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23[m[K,
+[2.714s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24[m[K,
+[2.714s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23[m[K,
+[2.714s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26[m[K,
+[2.714s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:54[m[K,
+[2.714s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:7[m[K:
+[2.714s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.714s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[2.714s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[2.719s] In file included from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[2.719s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Converter.h:26[m[K,
+[2.719s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:33[m[K,
+[2.719s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28[m[K,
+[2.719s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23[m[K,
+[2.719s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24[m[K,
+[2.719s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23[m[K,
+[2.719s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26[m[K,
+[2.719s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:54[m[K,
+[2.719s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:7[m[K:
+[2.719s] [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.719s]    60 | f Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[2.719s]       |                                                              [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[2.719s] 
+[2.719s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[2.719s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[2.720s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[2.720s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[2.720s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[2.720s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:28[m[K,
+[2.720s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28[m[K,
+[2.720s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23[m[K,
+[2.720s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24[m[K,
+[2.720s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23[m[K,
+[2.720s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26[m[K,
+[2.720s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:54[m[K,
+[2.720s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:7[m[K:
+[2.720s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.720s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[2.720s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[2.744s] In file included from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[2.744s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Converter.h:26[m[K,
+[2.744s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:33[m[K,
+[2.744s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28[m[K,
+[2.744s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23[m[K,
+[2.744s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24[m[K,
+[2.744s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23[m[K,
+[2.744s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26[m[K,
+[2.744s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:54[m[K,
+[2.744s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:7[m[K:
+[2.744s] /home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<3, Eigen::Matrix<double, 3, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>[m[K’:
+[2.744s] [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:146:41:[m[K   required from here
+[2.744s] [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.744s]    59 | f Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[2.744s]       |                                                              [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[2.744s] 
+[2.744s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[2.744s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[2.744s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[2.744s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[2.744s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[2.744s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:28[m[K,
+[2.744s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28[m[K,
+[2.744s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23[m[K,
+[2.744s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24[m[K,
+[2.745s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23[m[K,
+[2.745s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26[m[K,
+[2.745s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:54[m[K,
+[2.745s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:7[m[K:
+[2.745s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.745s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[2.745s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[2.745s] In file included from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[2.745s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Converter.h:26[m[K,
+[2.745s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:33[m[K,
+[2.745s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28[m[K,
+[2.745s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23[m[K,
+[2.745s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24[m[K,
+[2.745s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23[m[K,
+[2.745s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26[m[K,
+[2.745s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:54[m[K,
+[2.745s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:7[m[K:
+[2.745s] [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.745s]    60 | f Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[2.745s]       |                                                              [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[2.745s] 
+[2.745s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[2.745s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[2.745s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[2.745s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[2.745s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[2.745s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:28[m[K,
+[2.745s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28[m[K,
+[2.745s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23[m[K,
+[2.745s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24[m[K,
+[2.745s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23[m[K,
+[2.745s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26[m[K,
+[2.745s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:54[m[K,
+[2.745s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:7[m[K:
+[2.745s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.745s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[2.745s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[2.828s] In file included from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[2.828s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Converter.h:26[m[K,
+[2.828s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:33[m[K,
+[2.828s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28[m[K,
+[2.828s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23[m[K,
+[2.828s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24[m[K,
+[2.828s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23[m[K,
+[2.828s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26[m[K,
+[2.828s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:54[m[K,
+[2.828s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:7[m[K:
+[2.828s] /home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<7, g2o::Sim3>[m[K’:
+[2.828s] [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:48:35:[m[K   required from here
+[2.828s] [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.828s]    62 | typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[2.828s]       |                                                              [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[2.828s] 
+[2.829s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[2.829s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[2.829s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[2.829s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[2.829s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[2.829s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:28[m[K,
+[2.829s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28[m[K,
+[2.829s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23[m[K,
+[2.829s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24[m[K,
+[2.829s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23[m[K,
+[2.829s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26[m[K,
+[2.829s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:54[m[K,
+[2.829s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:7[m[K:
+[2.829s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.829s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[2.829s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[2.841s] In file included from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[2.841s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Converter.h:26[m[K,
+[2.841s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:33[m[K,
+[2.841s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28[m[K,
+[2.841s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23[m[K,
+[2.841s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24[m[K,
+[2.841s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23[m[K,
+[2.841s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26[m[K,
+[2.841s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:54[m[K,
+[2.841s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:7[m[K:
+[2.841s] /home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<7, g2o::Sim3, g2o::VertexSim3Expmap, g2o::VertexSim3Expmap>[m[K’:
+[2.841s] [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:99:27:[m[K   required from here
+[2.841s] [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.841s]    59 | f Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[2.841s]       |                                                              [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[2.842s] 
+[2.842s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[2.842s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[2.842s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[2.842s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[2.842s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[2.842s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:28[m[K,
+[2.842s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28[m[K,
+[2.842s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23[m[K,
+[2.842s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24[m[K,
+[2.842s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23[m[K,
+[2.842s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26[m[K,
+[2.842s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:54[m[K,
+[2.842s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:7[m[K:
+[2.842s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.842s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[2.842s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[2.842s] In file included from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[2.842s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Converter.h:26[m[K,
+[2.842s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:33[m[K,
+[2.842s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28[m[K,
+[2.842s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23[m[K,
+[2.842s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24[m[K,
+[2.842s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23[m[K,
+[2.842s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26[m[K,
+[2.842s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:54[m[K,
+[2.842s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:7[m[K:
+[2.842s] [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.842s]    60 | f Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[2.842s]       |                                                              [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[2.842s] 
+[2.842s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[2.842s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[2.842s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[2.842s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[2.842s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[2.842s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:28[m[K,
+[2.842s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28[m[K,
+[2.842s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23[m[K,
+[2.842s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24[m[K,
+[2.842s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23[m[K,
+[2.842s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26[m[K,
+[2.843s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:54[m[K,
+[2.843s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:7[m[K:
+[2.843s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.843s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[2.843s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[2.859s] In file included from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[2.859s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Converter.h:26[m[K,
+[2.859s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:33[m[K,
+[2.859s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28[m[K,
+[2.859s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23[m[K,
+[2.859s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24[m[K,
+[2.859s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23[m[K,
+[2.859s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26[m[K,
+[2.859s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:54[m[K,
+[2.859s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:7[m[K:
+[2.859s] /home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSim3Expmap>[m[K’:
+[2.859s] [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:130:36:[m[K   required from here
+[2.859s] [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.859s]    59 | f Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[2.859s]       |                                                              [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[2.859s] 
+[2.859s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[2.859s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[2.859s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[2.859s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[2.859s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[2.859s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:28[m[K,
+[2.859s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28[m[K,
+[2.860s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23[m[K,
+[2.860s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24[m[K,
+[2.860s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23[m[K,
+[2.860s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26[m[K,
+[2.860s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:54[m[K,
+[2.860s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:7[m[K:
+[2.860s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.860s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[2.860s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[2.865s] In file included from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[2.865s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Converter.h:26[m[K,
+[2.865s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:33[m[K,
+[2.865s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28[m[K,
+[2.865s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23[m[K,
+[2.865s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24[m[K,
+[2.865s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23[m[K,
+[2.865s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26[m[K,
+[2.865s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:54[m[K,
+[2.865s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:7[m[K:
+[2.865s] [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.865s]    60 | f Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[2.865s]       |                                                              [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[2.865s] 
+[2.865s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[2.865s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[2.865s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[2.865s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[2.865s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[2.865s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:28[m[K,
+[2.865s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28[m[K,
+[2.865s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23[m[K,
+[2.865s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24[m[K,
+[2.865s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23[m[K,
+[2.865s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26[m[K,
+[2.865s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:54[m[K,
+[2.865s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:7[m[K:
+[2.865s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.865s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[2.866s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[3.357s] In file included from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Atlas.h:27[m[K,
+[3.357s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:25[m[K,
+[3.357s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23[m[K,
+[3.357s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26[m[K,
+[3.357s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:54[m[K,
+[3.357s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:7[m[K:
+[3.357s] [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/CameraModels/KannalaBrandt8.h:[m[K In constructor ‘[01m[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>)[m[K’:
+[3.357s] [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/CameraModels/KannalaBrandt8.h:102:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM3::KannalaBrandt8::precision[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[3.357s]   102 |         const float [01;35m[Kprecision[m[K;
+[3.358s]       |                     [01;35m[K^~~~~~~~~[m[K
+[3.358s] [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/CameraModels/KannalaBrandt8.h:88:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[3.358s]    88 |         std::vector<int> [01;35m[KmvLappingArea[m[K;
+[3.358s]       |                          [01;35m[K^~~~~~~~~~~~~[m[K
+[3.358s] In file included from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Atlas.h:27[m[K,
+[3.358s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:25[m[K,
+[3.358s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23[m[K,
+[3.358s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26[m[K,
+[3.358s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:54[m[K,
+[3.358s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:7[m[K:
+[3.358s] [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/CameraModels/KannalaBrandt8.h:47:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[3.358s]    47 |         [01;35m[KKannalaBrandt8[m[K(const std::vector<float> _vParameters) : GeometricCamera(_vParameters), precision(1e-6), mvLappingArea(2,0) ,tvr(nullptr) {
+[3.358s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[3.358s] In file included from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Atlas.h:27[m[K,
+[3.358s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:25[m[K,
+[3.358s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23[m[K,
+[3.358s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26[m[K,
+[3.358s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:54[m[K,
+[3.358s]                  from [01m[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:7[m[K:
+[3.358s] [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/CameraModels/KannalaBrandt8.h:[m[K In constructor ‘[01m[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>, float)[m[K’:
+[3.358s] [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/CameraModels/KannalaBrandt8.h:102:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM3::KannalaBrandt8::precision[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[3.358s]   102 |         const float [01;35m[Kprecision[m[K;
+[3.358s]       |                     [01;35m[K^~~~~~~~~[m[K
+[3.358s] [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/CameraModels/KannalaBrandt8.h:88:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[3.358s]    88 |         std::vector<int> [01;35m[KmvLappingArea[m[K;
+[3.358s]       |                          [01;35m[K^~~~~~~~~~~~~[m[K
+[3.358s] [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/CameraModels/KannalaBrandt8.h:53:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[3.358s]    53 |         [01;35m[KKannalaBrandt8[m[K(const std::vector<float> _vParameters, const float _precision) : GeometricCamera(_vParameters),
+[3.358s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[3.358s] [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/CameraModels/KannalaBrandt8.h:[m[K In constructor ‘[01m[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(ORB_SLAM3::KannalaBrandt8*)[m[K’:
+[3.358s] [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/CameraModels/KannalaBrandt8.h:102:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM3::KannalaBrandt8::precision[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[3.358s]   102 |         const float [01;35m[Kprecision[m[K;
+[3.358s]       |                     [01;35m[K^~~~~~~~~[m[K
+[3.358s] [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/CameraModels/KannalaBrandt8.h:88:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[3.358s]    88 |         std::vector<int> [01;35m[KmvLappingArea[m[K;
+[3.358s]       |                          [01;35m[K^~~~~~~~~~~~~[m[K
+[3.358s] [01m[K/home/lx/catkin_ws/d435_slam_ros2/include/CameraModels/KannalaBrandt8.h:59:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[3.358s]    59 |         [01;35m[KKannalaBrandt8[m[K(KannalaBrandt8* pKannala) : GeometricCamera(pKannala->mvParameters), precision(pKannala->precision), mvLappingArea(2,0) ,tvr(nullptr) {
+[3.358s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[10.980s] [100%] [32m[1mLinking CXX executable ../../lib/d435_slam_node[0m
+[11.346s] [100%] Built target d435_slam_node
+[11.352s] Invoked command in '/home/lx/catkin_ws/d435_slam_ros2/build/d435_slam_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lx/catkin_ws/d435_slam_ros2/build/d435_slam_ros2 -- -j32 -l32
+[11.356s] Invoking command in '/home/lx/catkin_ws/d435_slam_ros2/build/d435_slam_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lx/catkin_ws/d435_slam_ros2/build/d435_slam_ros2
+[11.360s] -- Install configuration: "Release"
+[11.360s] -- Installing: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/lib/d435_slam_ros2/d435_slam_node
+[11.361s] -- Set runtime path of "/home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/lib/d435_slam_ros2/d435_slam_node" to ""
+[11.361s] -- Up-to-date: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/lib/libd435_slam_ros2.so
+[11.361s] -- Up-to-date: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2
+[11.361s] -- Up-to-date: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/CameraModels
+[11.361s] -- Up-to-date: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/CameraModels/GeometricCamera.h
+[11.361s] -- Up-to-date: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/CameraModels/KannalaBrandt8.h
+[11.361s] -- Up-to-date: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/CameraModels/Pinhole.h
+[11.361s] -- Up-to-date: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/Map.h
+[11.361s] -- Up-to-date: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/MapDrawer.h
+[11.361s] -- Up-to-date: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/LocalMapping.h
+[11.361s] -- Up-to-date: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/System.h
+[11.361s] -- Up-to-date: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/FrameDrawer.h
+[11.361s] -- Up-to-date: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/SerializationUtils.h
+[11.361s] -- Up-to-date: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/PnPsolver.h
+[11.361s] -- Up-to-date: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/ORBmatcher.h
+[11.361s] -- Up-to-date: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/G2oTypes.h
+[11.361s] -- Up-to-date: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/Atlas.h
+[11.361s] -- Up-to-date: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/ORBextractor.h
+[11.361s] -- Up-to-date: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/ORBVocabulary.h
+[11.361s] -- Up-to-date: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/OptimizableTypes.h
+[11.361s] -- Up-to-date: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/GeometricTools.h
+[11.361s] -- Up-to-date: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/LoopClosing.h
+[11.361s] -- Up-to-date: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/Optimizer.h
+[11.361s] -- Up-to-date: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/Config.h
+[11.361s] -- Up-to-date: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/ImuTypes.h
+[11.361s] -- Up-to-date: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/Sim3Solver.h
+[11.361s] -- Up-to-date: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/Tracking.h
+[11.361s] -- Up-to-date: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/KeyFrameDatabase.h
+[11.361s] -- Up-to-date: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/KeyFrame.h
+[11.361s] -- Up-to-date: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/TwoViewReconstruction.h
+[11.361s] -- Up-to-date: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/Converter.h
+[11.361s] -- Up-to-date: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/MapPoint.h
+[11.361s] -- Up-to-date: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/Settings.h
+[11.361s] -- Up-to-date: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/Frame.h
+[11.361s] -- Up-to-date: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/MLPnPsolver.h
+[11.361s] -- Up-to-date: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/Initializer.h
+[11.362s] -- Up-to-date: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/Viewer.h
+[11.362s] -- Up-to-date: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/share/ament_index/resource_index/package_run_dependencies/d435_slam_ros2
+[11.362s] -- Up-to-date: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/share/ament_index/resource_index/parent_prefix_path/d435_slam_ros2
+[11.362s] -- Up-to-date: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/share/d435_slam_ros2/environment/ament_prefix_path.sh
+[11.362s] -- Up-to-date: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/share/d435_slam_ros2/environment/ament_prefix_path.dsv
+[11.362s] -- Up-to-date: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/share/d435_slam_ros2/environment/path.sh
+[11.362s] -- Up-to-date: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/share/d435_slam_ros2/environment/path.dsv
+[11.362s] -- Up-to-date: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/share/d435_slam_ros2/local_setup.bash
+[11.362s] -- Up-to-date: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/share/d435_slam_ros2/local_setup.sh
+[11.362s] -- Up-to-date: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/share/d435_slam_ros2/local_setup.zsh
+[11.362s] -- Up-to-date: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/share/d435_slam_ros2/local_setup.dsv
+[11.362s] -- Installing: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/share/d435_slam_ros2/package.dsv
+[11.362s] -- Up-to-date: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/share/ament_index/resource_index/packages/d435_slam_ros2
+[11.362s] -- Up-to-date: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/share/d435_slam_ros2/cmake/d435_slam_ros2Config.cmake
+[11.362s] -- Up-to-date: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/share/d435_slam_ros2/cmake/d435_slam_ros2Config-version.cmake
+[11.362s] -- Up-to-date: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/share/d435_slam_ros2/package.xml
+[11.363s] Invoked command in '/home/lx/catkin_ws/d435_slam_ros2/build/d435_slam_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lx/catkin_ws/d435_slam_ros2/build/d435_slam_ros2

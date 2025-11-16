@@ -1,0 +1,755 @@
+[0.000000] (-) TimerEvent: {}
+[0.000595] (d435_slam_ros2) JobQueued: {'identifier': 'd435_slam_ros2', 'dependencies': OrderedDict()}
+[0.000623] (d435_slam_ros2) JobStarted: {'identifier': 'd435_slam_ros2'}
+[0.004122] (d435_slam_ros2) JobProgress: {'identifier': 'd435_slam_ros2', 'progress': 'cmake'}
+[0.005358] (d435_slam_ros2) JobProgress: {'identifier': 'd435_slam_ros2', 'progress': 'build'}
+[0.005384] (d435_slam_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lx/catkin_ws/d435_slam_ros2/build/d435_slam_ros2', '--', '-j32', '-l32'], 'cwd': '/home/lx/catkin_ws/d435_slam_ros2/build/d435_slam_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lx'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lx/catkin_ws/d435_slam_ros2/lib:/home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lx'), ('OLDPWD', '/home/lx/catkin_ws/d435_slam_ros2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2310'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/lx/catkin_ws/d435_slam_ros2/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lx'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lx'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/lx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Lxlink:@/tmp/.ICE-unix/2040,unix/Lxlink:/tmp/.ICE-unix/2040'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/11017859_3c27_4fa0_9c89_4720864cf448'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.260'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lx/catkin_ws/d435_slam_ros2/build/d435_slam_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2:/opt/ros/humble')]), 'shell': False}
+[0.035675] (d435_slam_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target g2o\x1b[0m\n'}
+[0.047120] (d435_slam_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target d435_slam_ros2\x1b[0m\n'}
+[0.057978] (d435_slam_ros2) StdoutLine: {'line': b'[ 50%] Built target g2o\n'}
+[0.100109] (-) TimerEvent: {}
+[0.113580] (d435_slam_ros2) StdoutLine: {'line': b'[ 96%] Built target d435_slam_ros2\n'}
+[0.128230] (d435_slam_ros2) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding CXX object CMakeFiles/d435_slam_node.dir/ros2/main.cpp.o\x1b[0m\n'}
+[0.200291] (-) TimerEvent: {}
+[0.300569] (-) TimerEvent: {}
+[0.400809] (-) TimerEvent: {}
+[0.501050] (-) TimerEvent: {}
+[0.601300] (-) TimerEvent: {}
+[0.701517] (-) TimerEvent: {}
+[0.801738] (-) TimerEvent: {}
+[0.902075] (-) TimerEvent: {}
+[1.002367] (-) TimerEvent: {}
+[1.102581] (-) TimerEvent: {}
+[1.202777] (-) TimerEvent: {}
+[1.303065] (-) TimerEvent: {}
+[1.403339] (-) TimerEvent: {}
+[1.503610] (-) TimerEvent: {}
+[1.603897] (-) TimerEvent: {}
+[1.704123] (-) TimerEvent: {}
+[1.804377] (-) TimerEvent: {}
+[1.904572] (-) TimerEvent: {}
+[2.004780] (-) TimerEvent: {}
+[2.104991] (-) TimerEvent: {}
+[2.205177] (-) TimerEvent: {}
+[2.305354] (-) TimerEvent: {}
+[2.405622] (-) TimerEvent: {}
+[2.506006] (-) TimerEvent: {}
+[2.571956] (d435_slam_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:30\x1b[m\x1b[K,\n'}
+[2.572122] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.572157] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.572185] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.572213] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.572239] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.572268] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.572296] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:8\x1b[m\x1b[K:\n'}
+[2.572322] (d435_slam_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/ImuTypes.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ORB_SLAM3::IMU::Preintegrated::printMeasurements() const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.572353] (d435_slam_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/ImuTypes.h:204:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<ORB_SLAM3::IMU::Preintegrated::integrable>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.572387] (d435_slam_ros2) StderrLine: {'line': b'  204 |         for(int i=0; \x1b[01;35m\x1b[Ki<mvMeasurements.size()\x1b[m\x1b[K; i++){\n'}
+[2.572413] (d435_slam_ros2) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K~^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.606189] (-) TimerEvent: {}
+[2.611171] (d435_slam_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37\x1b[m\x1b[K,\n'}
+[2.611250] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[2.611279] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[2.611303] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.611326] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.611348] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.611371] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.611392] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.611415] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.611437] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:8\x1b[m\x1b[K:\n'}
+[2.611458] (d435_slam_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/../core/base_vertex.h:\x1b[m\x1b[K At global scope:\n'}
+[2.611481] (d435_slam_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:74:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.611505] (d435_slam_ros2) StderrLine: {'line': b'   62 | igen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & \x1b[01;35m\x1b[KAlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[2.611528] (d435_slam_ros2) StderrLine: {'line': b'      |                                                             \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.611549] (d435_slam_ros2) StderrLine: {'line': b'\n'}
+[2.611571] (d435_slam_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[2.611597] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[2.611617] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[2.611647] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[2.611668] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[2.611689] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[2.611709] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.611734] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.611757] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.611779] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.611800] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.611823] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.611844] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:8\x1b[m\x1b[K:\n'}
+[2.611865] (d435_slam_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.611887] (d435_slam_ros2) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[2.611909] (d435_slam_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.620703] (d435_slam_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[2.620784] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[2.620813] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[2.620839] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.620863] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.620885] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.620907] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.620929] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.620950] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.620971] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:8\x1b[m\x1b[K:\n'}
+[2.620992] (d435_slam_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:82:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.621020] (d435_slam_ros2) StderrLine: {'line': b'   59 | Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & \x1b[01;35m\x1b[KAlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[2.621043] (d435_slam_ros2) StderrLine: {'line': b'      |                                                             \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.621064] (d435_slam_ros2) StderrLine: {'line': b'\n'}
+[2.621086] (d435_slam_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[2.621111] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[2.621131] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[2.621152] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[2.621172] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[2.621192] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[2.621218] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.621239] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.621260] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.621280] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.621300] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.621323] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.621344] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:8\x1b[m\x1b[K:\n'}
+[2.621364] (d435_slam_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.621385] (d435_slam_ros2) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[2.621407] (d435_slam_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.621427] (d435_slam_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[2.621448] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[2.621468] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[2.621489] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.621511] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.621532] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.621552] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.621574] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.621595] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.621616] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:8\x1b[m\x1b[K:\n'}
+[2.621636] (d435_slam_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:82:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.621662] (d435_slam_ros2) StderrLine: {'line': b'   60 | Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & \x1b[01;35m\x1b[KAlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[2.621685] (d435_slam_ros2) StderrLine: {'line': b'      |                                                             \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.621706] (d435_slam_ros2) StderrLine: {'line': b'\n'}
+[2.621727] (d435_slam_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[2.621749] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[2.621769] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[2.621790] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[2.621811] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[2.621832] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[2.621852] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.621873] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.621893] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.621914] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.621934] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.621954] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.621974] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:8\x1b[m\x1b[K:\n'}
+[2.621994] (d435_slam_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.622014] (d435_slam_ros2) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[2.622035] (d435_slam_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.706304] (-) TimerEvent: {}
+[2.790059] (d435_slam_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37\x1b[m\x1b[K,\n'}
+[2.790190] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[2.790220] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[2.790256] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.790281] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.790302] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.790324] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.790345] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.790366] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.790386] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:8\x1b[m\x1b[K:\n'}
+[2.790406] (d435_slam_ros2) StderrLine: {'line': b'/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseVertex<3, Eigen::Matrix<double, 3, 1> >\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.790429] (d435_slam_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/types_sba.h:40:35:\x1b[m\x1b[K   required from here\n'}
+[2.790450] (d435_slam_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.790479] (d435_slam_ros2) StderrLine: {'line': b'   62 |  Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[2.790500] (d435_slam_ros2) StderrLine: {'line': b'      |                                                       \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.790522] (d435_slam_ros2) StderrLine: {'line': b'\n'}
+[2.790542] (d435_slam_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[2.790562] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[2.790583] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[2.790603] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[2.790623] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[2.790644] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[2.790664] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.790684] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.790704] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.790724] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.790744] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.790764] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.790786] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:8\x1b[m\x1b[K:\n'}
+[2.790805] (d435_slam_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.790826] (d435_slam_ros2) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[2.790845] (d435_slam_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.801453] (d435_slam_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37\x1b[m\x1b[K,\n'}
+[2.801523] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[2.801553] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[2.801580] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.801602] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.801623] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.801644] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.801665] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.801690] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.801711] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:8\x1b[m\x1b[K:\n'}
+[2.801732] (d435_slam_ros2) StderrLine: {'line': b'/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseVertex<6, g2o::SE3Quat>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.801753] (d435_slam_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:59:33:\x1b[m\x1b[K   required from here\n'}
+[2.801774] (d435_slam_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.801797] (d435_slam_ros2) StderrLine: {'line': b'   62 |  Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[2.801820] (d435_slam_ros2) StderrLine: {'line': b'      |                                                       \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.801842] (d435_slam_ros2) StderrLine: {'line': b'\n'}
+[2.801862] (d435_slam_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[2.801883] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[2.801904] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[2.801928] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[2.801948] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[2.801968] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[2.801991] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.802011] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.802031] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.802052] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.802073] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.802093] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.802113] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:8\x1b[m\x1b[K:\n'}
+[2.802133] (d435_slam_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.802153] (d435_slam_ros2) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[2.802174] (d435_slam_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.806403] (-) TimerEvent: {}
+[2.813285] (d435_slam_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[2.813346] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[2.813371] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[2.813397] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.813424] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.813447] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.813469] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.813490] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.813512] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.813533] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:8\x1b[m\x1b[K:\n'}
+[2.813554] (d435_slam_ros2) StderrLine: {'line': b'/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<6, g2o::SE3Quat, g2o::VertexSE3Expmap, g2o::VertexSE3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.813582] (d435_slam_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:83:24:\x1b[m\x1b[K   required from here\n'}
+[2.813605] (d435_slam_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.813628] (d435_slam_ros2) StderrLine: {'line': b'   59 | ::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[2.813650] (d435_slam_ros2) StderrLine: {'line': b'      |                                                       \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.813670] (d435_slam_ros2) StderrLine: {'line': b'\n'}
+[2.813693] (d435_slam_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[2.813733] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[2.813763] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[2.813789] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[2.813810] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[2.813830] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[2.813855] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.813875] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.813896] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.813916] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.813936] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.813955] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.813975] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:8\x1b[m\x1b[K:\n'}
+[2.813995] (d435_slam_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.814018] (d435_slam_ros2) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[2.814038] (d435_slam_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.814058] (d435_slam_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[2.814082] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[2.814102] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[2.814123] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.814144] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.814164] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.814184] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.814204] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.814223] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.814243] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:8\x1b[m\x1b[K:\n'}
+[2.814263] (d435_slam_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.814286] (d435_slam_ros2) StderrLine: {'line': b'   60 | ::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[2.814307] (d435_slam_ros2) StderrLine: {'line': b'      |                                                       \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.814327] (d435_slam_ros2) StderrLine: {'line': b'\n'}
+[2.814348] (d435_slam_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[2.814368] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[2.814388] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[2.814409] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[2.814429] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[2.814449] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[2.814470] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.814490] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.814509] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.814530] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.814550] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.814569] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.814589] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:8\x1b[m\x1b[K:\n'}
+[2.814611] (d435_slam_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.814631] (d435_slam_ros2) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[2.814652] (d435_slam_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.842290] (d435_slam_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[2.842417] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[2.842451] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[2.842475] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.842497] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.842518] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.842539] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.842560] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.842581] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.842601] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:8\x1b[m\x1b[K:\n'}
+[2.842629] (d435_slam_ros2) StderrLine: {'line': b'/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.842652] (d435_slam_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:114:35:\x1b[m\x1b[K   required from here\n'}
+[2.842676] (d435_slam_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.842701] (d435_slam_ros2) StderrLine: {'line': b'   59 | ::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[2.842724] (d435_slam_ros2) StderrLine: {'line': b'      |                                                       \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.842744] (d435_slam_ros2) StderrLine: {'line': b'\n'}
+[2.842765] (d435_slam_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[2.842786] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[2.842806] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[2.842827] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[2.842854] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[2.842874] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[2.842894] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.842915] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.842936] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.842956] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.842976] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.842995] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.843015] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:8\x1b[m\x1b[K:\n'}
+[2.843035] (d435_slam_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.843054] (d435_slam_ros2) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[2.843074] (d435_slam_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.848020] (d435_slam_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[2.848080] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[2.848105] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[2.848126] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.848151] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.848173] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.848194] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.848216] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.848237] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.848258] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:8\x1b[m\x1b[K:\n'}
+[2.848279] (d435_slam_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.848307] (d435_slam_ros2) StderrLine: {'line': b'   60 | ::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[2.848334] (d435_slam_ros2) StderrLine: {'line': b'      |                                                       \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.848355] (d435_slam_ros2) StderrLine: {'line': b'\n'}
+[2.848376] (d435_slam_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[2.848396] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[2.848417] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[2.848439] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[2.848460] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[2.848482] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[2.848504] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.848524] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.848544] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.848565] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.848585] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.848606] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.848626] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:8\x1b[m\x1b[K:\n'}
+[2.848646] (d435_slam_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.848666] (d435_slam_ros2) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[2.848689] (d435_slam_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.872044] (d435_slam_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[2.872170] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[2.872201] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[2.872226] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.872249] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.872270] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.872292] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.872323] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.872346] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.872367] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:8\x1b[m\x1b[K:\n'}
+[2.872389] (d435_slam_ros2) StderrLine: {'line': b'/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<3, Eigen::Matrix<double, 3, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.872412] (d435_slam_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:146:41:\x1b[m\x1b[K   required from here\n'}
+[2.872438] (d435_slam_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.872462] (d435_slam_ros2) StderrLine: {'line': b'   59 | ::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[2.872485] (d435_slam_ros2) StderrLine: {'line': b'      |                                                       \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.872506] (d435_slam_ros2) StderrLine: {'line': b'\n'}
+[2.872527] (d435_slam_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[2.872550] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[2.872572] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[2.872594] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[2.872614] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[2.872636] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[2.872656] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.872676] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.872697] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.872717] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.872740] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.872760] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.872780] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:8\x1b[m\x1b[K:\n'}
+[2.872800] (d435_slam_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.872824] (d435_slam_ros2) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[2.872846] (d435_slam_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.872866] (d435_slam_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[2.872886] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[2.872906] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[2.872927] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.872948] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.872969] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.872990] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.873010] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.873031] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.873051] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:8\x1b[m\x1b[K:\n'}
+[2.873072] (d435_slam_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.873096] (d435_slam_ros2) StderrLine: {'line': b'   60 | ::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[2.873119] (d435_slam_ros2) StderrLine: {'line': b'      |                                                       \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.873140] (d435_slam_ros2) StderrLine: {'line': b'\n'}
+[2.873161] (d435_slam_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[2.873181] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[2.873202] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[2.873222] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[2.873243] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[2.873264] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[2.873284] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.873304] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.873326] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.873347] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.873366] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.873386] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.873406] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:8\x1b[m\x1b[K:\n'}
+[2.873427] (d435_slam_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.873448] (d435_slam_ros2) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[2.873469] (d435_slam_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.906535] (-) TimerEvent: {}
+[2.955433] (d435_slam_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37\x1b[m\x1b[K,\n'}
+[2.955556] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[2.955589] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[2.955613] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.955635] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.955658] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.955687] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.955709] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.955730] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.955753] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:8\x1b[m\x1b[K:\n'}
+[2.955774] (d435_slam_ros2) StderrLine: {'line': b'/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseVertex<7, g2o::Sim3>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.955799] (d435_slam_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:48:35:\x1b[m\x1b[K   required from here\n'}
+[2.955820] (d435_slam_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.955846] (d435_slam_ros2) StderrLine: {'line': b'   62 |  Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[2.955872] (d435_slam_ros2) StderrLine: {'line': b'      |                                                       \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.955895] (d435_slam_ros2) StderrLine: {'line': b'\n'}
+[2.955915] (d435_slam_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[2.955937] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[2.955967] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[2.955988] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[2.956009] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[2.956029] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[2.956049] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.956069] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.956089] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.956109] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.956128] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.956150] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.956169] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:8\x1b[m\x1b[K:\n'}
+[2.956189] (d435_slam_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.956210] (d435_slam_ros2) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[2.956230] (d435_slam_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.968211] (d435_slam_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[2.968284] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[2.968311] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[2.968333] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.968363] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.968386] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.968407] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.968430] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.968452] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.968479] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:8\x1b[m\x1b[K:\n'}
+[2.968500] (d435_slam_ros2) StderrLine: {'line': b'/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<7, g2o::Sim3, g2o::VertexSim3Expmap, g2o::VertexSim3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.968523] (d435_slam_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:99:27:\x1b[m\x1b[K   required from here\n'}
+[2.968545] (d435_slam_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.968571] (d435_slam_ros2) StderrLine: {'line': b'   59 | ::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[2.968597] (d435_slam_ros2) StderrLine: {'line': b'      |                                                       \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.968619] (d435_slam_ros2) StderrLine: {'line': b'\n'}
+[2.968640] (d435_slam_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[2.968661] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[2.968681] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[2.968702] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[2.968723] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[2.968744] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[2.968765] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.968785] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.968810] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.968831] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.968851] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.968871] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.968891] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:8\x1b[m\x1b[K:\n'}
+[2.968912] (d435_slam_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.968933] (d435_slam_ros2) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[2.968954] (d435_slam_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.968976] (d435_slam_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[2.968996] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[2.969016] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[2.969036] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.969057] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.969077] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.969099] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.969119] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.969139] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.969159] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:8\x1b[m\x1b[K:\n'}
+[2.969179] (d435_slam_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.969206] (d435_slam_ros2) StderrLine: {'line': b'   60 | ::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[2.969227] (d435_slam_ros2) StderrLine: {'line': b'      |                                                       \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.969248] (d435_slam_ros2) StderrLine: {'line': b'\n'}
+[2.969268] (d435_slam_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[2.969289] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[2.969309] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[2.969328] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[2.969349] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[2.969370] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[2.969392] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.969414] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.969435] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.969457] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.969478] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.969499] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.969520] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:8\x1b[m\x1b[K:\n'}
+[2.969540] (d435_slam_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.969560] (d435_slam_ros2) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[2.969580] (d435_slam_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.985885] (d435_slam_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[2.985953] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[2.985980] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[2.986012] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.986034] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.986057] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.986078] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.986099] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.986120] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.986142] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:8\x1b[m\x1b[K:\n'}
+[2.986164] (d435_slam_ros2) StderrLine: {'line': b'/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSim3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.986187] (d435_slam_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:130:36:\x1b[m\x1b[K   required from here\n'}
+[2.986208] (d435_slam_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.986231] (d435_slam_ros2) StderrLine: {'line': b'   59 | ::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[2.986252] (d435_slam_ros2) StderrLine: {'line': b'      |                                                       \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.986273] (d435_slam_ros2) StderrLine: {'line': b'\n'}
+[2.986294] (d435_slam_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[2.986321] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[2.986341] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[2.986361] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[2.986383] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[2.986403] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[2.986423] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.986447] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.986467] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.986487] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.986507] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.986529] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.986549] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:8\x1b[m\x1b[K:\n'}
+[2.986569] (d435_slam_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.986589] (d435_slam_ros2) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[2.986609] (d435_slam_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.991744] (d435_slam_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[2.991830] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[2.991857] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[2.991892] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.991914] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.991937] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.991964] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.991986] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.992007] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.992028] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:8\x1b[m\x1b[K:\n'}
+[2.992050] (d435_slam_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.992076] (d435_slam_ros2) StderrLine: {'line': b'   60 | ::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[2.992098] (d435_slam_ros2) StderrLine: {'line': b'      |                                                       \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.992119] (d435_slam_ros2) StderrLine: {'line': b'\n'}
+[2.992140] (d435_slam_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[2.992162] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[2.992183] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[2.992204] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[2.992225] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[2.992245] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[2.992265] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.992286] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.992306] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.992326] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.992346] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.992366] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.992386] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:8\x1b[m\x1b[K:\n'}
+[2.992406] (d435_slam_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.992427] (d435_slam_ros2) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[2.992447] (d435_slam_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.006605] (-) TimerEvent: {}
+[3.106824] (-) TimerEvent: {}
+[3.207039] (-) TimerEvent: {}
+[3.243941] (d435_slam_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Atlas.h:27\x1b[m\x1b[K,\n'}
+[3.244205] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:25\x1b[m\x1b[K,\n'}
+[3.244237] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[3.244269] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[3.244296] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:31\x1b[m\x1b[K,\n'}
+[3.244318] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:8\x1b[m\x1b[K:\n'}
+[3.244340] (d435_slam_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/CameraModels/KannalaBrandt8.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.244363] (d435_slam_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/CameraModels/KannalaBrandt8.h:102:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::precision\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.244388] (d435_slam_ros2) StderrLine: {'line': b'  102 |         const float \x1b[01;35m\x1b[Kprecision\x1b[m\x1b[K;\n'}
+[3.244409] (d435_slam_ros2) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.244430] (d435_slam_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/CameraModels/KannalaBrandt8.h:88:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.244454] (d435_slam_ros2) StderrLine: {'line': b'   88 |         std::vector<int> \x1b[01;35m\x1b[KmvLappingArea\x1b[m\x1b[K;\n'}
+[3.244474] (d435_slam_ros2) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.244496] (d435_slam_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Atlas.h:27\x1b[m\x1b[K,\n'}
+[3.244518] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:25\x1b[m\x1b[K,\n'}
+[3.244538] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[3.244559] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[3.244579] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:31\x1b[m\x1b[K,\n'}
+[3.244599] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:8\x1b[m\x1b[K:\n'}
+[3.244619] (d435_slam_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/CameraModels/KannalaBrandt8.h:47:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.244641] (d435_slam_ros2) StderrLine: {'line': b'   47 |         \x1b[01;35m\x1b[KKannalaBrandt8\x1b[m\x1b[K(const std::vector<float> _vParameters) : GeometricCamera(_vParameters), precision(1e-6), mvLappingArea(2,0) ,tvr(nullptr) {\n'}
+[3.244663] (d435_slam_ros2) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.244683] (d435_slam_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Atlas.h:27\x1b[m\x1b[K,\n'}
+[3.244704] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/FrameDrawer.h:25\x1b[m\x1b[K,\n'}
+[3.244725] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[3.244747] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[3.244767] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/System.h:31\x1b[m\x1b[K,\n'}
+[3.244787] (d435_slam_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:8\x1b[m\x1b[K:\n'}
+[3.244808] (d435_slam_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/CameraModels/KannalaBrandt8.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>, float)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.244829] (d435_slam_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/CameraModels/KannalaBrandt8.h:102:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::precision\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.244851] (d435_slam_ros2) StderrLine: {'line': b'  102 |         const float \x1b[01;35m\x1b[Kprecision\x1b[m\x1b[K;\n'}
+[3.244871] (d435_slam_ros2) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.244891] (d435_slam_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/CameraModels/KannalaBrandt8.h:88:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.244919] (d435_slam_ros2) StderrLine: {'line': b'   88 |         std::vector<int> \x1b[01;35m\x1b[KmvLappingArea\x1b[m\x1b[K;\n'}
+[3.244940] (d435_slam_ros2) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.244960] (d435_slam_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/CameraModels/KannalaBrandt8.h:53:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.244981] (d435_slam_ros2) StderrLine: {'line': b'   53 |         \x1b[01;35m\x1b[KKannalaBrandt8\x1b[m\x1b[K(const std::vector<float> _vParameters, const float _precision) : GeometricCamera(_vParameters),\n'}
+[3.245001] (d435_slam_ros2) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.245022] (d435_slam_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/CameraModels/KannalaBrandt8.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(ORB_SLAM3::KannalaBrandt8*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.245042] (d435_slam_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/CameraModels/KannalaBrandt8.h:102:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::precision\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.245065] (d435_slam_ros2) StderrLine: {'line': b'  102 |         const float \x1b[01;35m\x1b[Kprecision\x1b[m\x1b[K;\n'}
+[3.245086] (d435_slam_ros2) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.245106] (d435_slam_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/CameraModels/KannalaBrandt8.h:88:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.245130] (d435_slam_ros2) StderrLine: {'line': b'   88 |         std::vector<int> \x1b[01;35m\x1b[KmvLappingArea\x1b[m\x1b[K;\n'}
+[3.245151] (d435_slam_ros2) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.245172] (d435_slam_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/include/CameraModels/KannalaBrandt8.h:59:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.245193] (d435_slam_ros2) StderrLine: {'line': b'   59 |         \x1b[01;35m\x1b[KKannalaBrandt8\x1b[m\x1b[K(KannalaBrandt8* pKannala) : GeometricCamera(pKannala->mvParameters), precision(pKannala->precision), mvLappingArea(2,0) ,tvr(nullptr) {\n'}
+[3.245214] (d435_slam_ros2) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.307181] (-) TimerEvent: {}
+[3.407512] (-) TimerEvent: {}
+[3.507807] (-) TimerEvent: {}
+[3.608053] (-) TimerEvent: {}
+[3.708260] (-) TimerEvent: {}
+[3.808531] (-) TimerEvent: {}
+[3.851651] (d435_slam_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ORB_SLAM3_Node::publishPointCloud(const cv::Mat&, const cv::Mat&, const SE3f&, const Header&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.851755] (d435_slam_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lx/catkin_ws/d435_slam_ros2/ros2/main.cpp:168:36:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kdereferencing type-punned pointer will break strict-aliasing rules [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wstrict-aliasing\x07-Wstrict-aliasing\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.851786] (d435_slam_ros2) StderrLine: {'line': b'  168 |                     *data_ptr++ = *\x1b[01;35m\x1b[Kreinterpret_cast<float*>(&rgb)\x1b[m\x1b[K;\n'}
+[3.851809] (d435_slam_ros2) StderrLine: {'line': b'      |                                    \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.908690] (-) TimerEvent: {}
+[4.008939] (-) TimerEvent: {}
+[4.109230] (-) TimerEvent: {}
+[4.209535] (-) TimerEvent: {}
+[4.309824] (-) TimerEvent: {}
+[4.410120] (-) TimerEvent: {}
+[4.510383] (-) TimerEvent: {}
+[4.610658] (-) TimerEvent: {}
+[4.710926] (-) TimerEvent: {}
+[4.811189] (-) TimerEvent: {}
+[4.911466] (-) TimerEvent: {}
+[5.011764] (-) TimerEvent: {}
+[5.112065] (-) TimerEvent: {}
+[5.212309] (-) TimerEvent: {}
+[5.312644] (-) TimerEvent: {}
+[5.412960] (-) TimerEvent: {}
+[5.513236] (-) TimerEvent: {}
+[5.613564] (-) TimerEvent: {}
+[5.713862] (-) TimerEvent: {}
+[5.814165] (-) TimerEvent: {}
+[5.914466] (-) TimerEvent: {}
+[6.014752] (-) TimerEvent: {}
+[6.115051] (-) TimerEvent: {}
+[6.215393] (-) TimerEvent: {}
+[6.315711] (-) TimerEvent: {}
+[6.416040] (-) TimerEvent: {}
+[6.516342] (-) TimerEvent: {}
+[6.616697] (-) TimerEvent: {}
+[6.717035] (-) TimerEvent: {}
+[6.817346] (-) TimerEvent: {}
+[6.917641] (-) TimerEvent: {}
+[7.017935] (-) TimerEvent: {}
+[7.118282] (-) TimerEvent: {}
+[7.218593] (-) TimerEvent: {}
+[7.318909] (-) TimerEvent: {}
+[7.419235] (-) TimerEvent: {}
+[7.519520] (-) TimerEvent: {}
+[7.619819] (-) TimerEvent: {}
+[7.720150] (-) TimerEvent: {}
+[7.820457] (-) TimerEvent: {}
+[7.920755] (-) TimerEvent: {}
+[8.021066] (-) TimerEvent: {}
+[8.121382] (-) TimerEvent: {}
+[8.221696] (-) TimerEvent: {}
+[8.321991] (-) TimerEvent: {}
+[8.422285] (-) TimerEvent: {}
+[8.522631] (-) TimerEvent: {}
+[8.622948] (-) TimerEvent: {}
+[8.723266] (-) TimerEvent: {}
+[8.823588] (-) TimerEvent: {}
+[8.923830] (-) TimerEvent: {}
+[9.024030] (-) TimerEvent: {}
+[9.124258] (-) TimerEvent: {}
+[9.224513] (-) TimerEvent: {}
+[9.324786] (-) TimerEvent: {}
+[9.425062] (-) TimerEvent: {}
+[9.525358] (-) TimerEvent: {}
+[9.625646] (-) TimerEvent: {}
+[9.725908] (-) TimerEvent: {}
+[9.826222] (-) TimerEvent: {}
+[9.926501] (-) TimerEvent: {}
+[10.026777] (-) TimerEvent: {}
+[10.127061] (-) TimerEvent: {}
+[10.227320] (-) TimerEvent: {}
+[10.327595] (-) TimerEvent: {}
+[10.427873] (-) TimerEvent: {}
+[10.528181] (-) TimerEvent: {}
+[10.628424] (-) TimerEvent: {}
+[10.728674] (-) TimerEvent: {}
+[10.828956] (-) TimerEvent: {}
+[10.929270] (-) TimerEvent: {}
+[11.029512] (-) TimerEvent: {}
+[11.129795] (-) TimerEvent: {}
+[11.230109] (-) TimerEvent: {}
+[11.330394] (-) TimerEvent: {}
+[11.430719] (-) TimerEvent: {}
+[11.530970] (-) TimerEvent: {}
+[11.631287] (-) TimerEvent: {}
+[11.718467] (d435_slam_ros2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ../../lib/d435_slam_node\x1b[0m\n'}
+[11.731391] (-) TimerEvent: {}
+[11.831643] (-) TimerEvent: {}
+[11.932041] (-) TimerEvent: {}
+[12.032361] (-) TimerEvent: {}
+[12.078011] (d435_slam_ros2) StdoutLine: {'line': b'[100%] Built target d435_slam_node\n'}
+[12.085095] (d435_slam_ros2) CommandEnded: {'returncode': 0}
+[12.085813] (d435_slam_ros2) JobProgress: {'identifier': 'd435_slam_ros2', 'progress': 'install'}
+[12.089845] (d435_slam_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lx/catkin_ws/d435_slam_ros2/build/d435_slam_ros2'], 'cwd': '/home/lx/catkin_ws/d435_slam_ros2/build/d435_slam_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lx'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lx/catkin_ws/d435_slam_ros2/lib:/home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lx'), ('OLDPWD', '/home/lx/catkin_ws/d435_slam_ros2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2310'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/lx/catkin_ws/d435_slam_ros2/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lx'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lx'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/lx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Lxlink:@/tmp/.ICE-unix/2040,unix/Lxlink:/tmp/.ICE-unix/2040'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/11017859_3c27_4fa0_9c89_4720864cf448'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.260'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lx/catkin_ws/d435_slam_ros2/build/d435_slam_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2:/opt/ros/humble')]), 'shell': False}
+[12.092818] (d435_slam_ros2) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[12.092877] (d435_slam_ros2) StdoutLine: {'line': b'-- Installing: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/lib/d435_slam_ros2/d435_slam_node\n'}
+[12.093365] (d435_slam_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/lib/d435_slam_ros2/d435_slam_node" to ""\n'}
+[12.093425] (d435_slam_ros2) StdoutLine: {'line': b'-- Installing: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/lib/libd435_slam_ros2.so\n'}
+[12.097002] (d435_slam_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/lib/libd435_slam_ros2.so" to ""\n'}
+[12.097084] (d435_slam_ros2) StdoutLine: {'line': b'-- Installing: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2\n'}
+[12.097131] (d435_slam_ros2) StdoutLine: {'line': b'-- Installing: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/CameraModels\n'}
+[12.097164] (d435_slam_ros2) StdoutLine: {'line': b'-- Installing: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/CameraModels/GeometricCamera.h\n'}
+[12.097187] (d435_slam_ros2) StdoutLine: {'line': b'-- Installing: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/CameraModels/KannalaBrandt8.h\n'}
+[12.097301] (d435_slam_ros2) StdoutLine: {'line': b'-- Installing: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/CameraModels/Pinhole.h\n'}
+[12.097410] (d435_slam_ros2) StdoutLine: {'line': b'-- Installing: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/Map.h\n'}
+[12.097442] (d435_slam_ros2) StdoutLine: {'line': b'-- Installing: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/MapDrawer.h\n'}
+[12.097467] (d435_slam_ros2) StdoutLine: {'line': b'-- Installing: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/LocalMapping.h\n'}
+[12.097491] (d435_slam_ros2) StdoutLine: {'line': b'-- Installing: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/System.h\n'}
+[12.097515] (d435_slam_ros2) StdoutLine: {'line': b'-- Installing: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/FrameDrawer.h\n'}
+[12.097541] (d435_slam_ros2) StdoutLine: {'line': b'-- Installing: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/SerializationUtils.h\n'}
+[12.097701] (d435_slam_ros2) StdoutLine: {'line': b'-- Installing: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/PnPsolver.h\n'}
+[12.097763] (d435_slam_ros2) StdoutLine: {'line': b'-- Installing: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/ORBmatcher.h\n'}
+[12.097801] (d435_slam_ros2) StdoutLine: {'line': b'-- Installing: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/G2oTypes.h\n'}
+[12.097825] (d435_slam_ros2) StdoutLine: {'line': b'-- Installing: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/Atlas.h\n'}
+[12.097850] (d435_slam_ros2) StdoutLine: {'line': b'-- Installing: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/ORBextractor.h\n'}
+[12.097874] (d435_slam_ros2) StdoutLine: {'line': b'-- Installing: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/ORBVocabulary.h\n'}
+[12.097908] (d435_slam_ros2) StdoutLine: {'line': b'-- Installing: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/OptimizableTypes.h\n'}
+[12.097937] (d435_slam_ros2) StdoutLine: {'line': b'-- Installing: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/GeometricTools.h\n'}
+[12.097959] (d435_slam_ros2) StdoutLine: {'line': b'-- Installing: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/LoopClosing.h\n'}
+[12.097981] (d435_slam_ros2) StdoutLine: {'line': b'-- Installing: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/Optimizer.h\n'}
+[12.098004] (d435_slam_ros2) StdoutLine: {'line': b'-- Installing: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/Config.h\n'}
+[12.098026] (d435_slam_ros2) StdoutLine: {'line': b'-- Installing: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/ImuTypes.h\n'}
+[12.098047] (d435_slam_ros2) StdoutLine: {'line': b'-- Installing: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/Sim3Solver.h\n'}
+[12.098069] (d435_slam_ros2) StdoutLine: {'line': b'-- Installing: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/Tracking.h\n'}
+[12.098092] (d435_slam_ros2) StdoutLine: {'line': b'-- Installing: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/KeyFrameDatabase.h\n'}
+[12.098126] (d435_slam_ros2) StdoutLine: {'line': b'-- Installing: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/KeyFrame.h\n'}
+[12.098150] (d435_slam_ros2) StdoutLine: {'line': b'-- Installing: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/TwoViewReconstruction.h\n'}
+[12.098181] (d435_slam_ros2) StdoutLine: {'line': b'-- Installing: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/Converter.h\n'}
+[12.098203] (d435_slam_ros2) StdoutLine: {'line': b'-- Installing: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/MapPoint.h\n'}
+[12.098233] (d435_slam_ros2) StdoutLine: {'line': b'-- Installing: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/Settings.h\n'}
+[12.098254] (d435_slam_ros2) StdoutLine: {'line': b'-- Installing: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/Frame.h\n'}
+[12.098276] (d435_slam_ros2) StdoutLine: {'line': b'-- Installing: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/MLPnPsolver.h\n'}
+[12.098297] (d435_slam_ros2) StdoutLine: {'line': b'-- Installing: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/Initializer.h\n'}
+[12.098319] (d435_slam_ros2) StdoutLine: {'line': b'-- Installing: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/include/d435_slam_ros2/Viewer.h\n'}
+[12.098346] (d435_slam_ros2) StdoutLine: {'line': b'-- Installing: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/share/ament_index/resource_index/package_run_dependencies/d435_slam_ros2\n'}
+[12.098377] (d435_slam_ros2) StdoutLine: {'line': b'-- Installing: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/share/ament_index/resource_index/parent_prefix_path/d435_slam_ros2\n'}
+[12.098400] (d435_slam_ros2) StdoutLine: {'line': b'-- Installing: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/share/d435_slam_ros2/environment/ament_prefix_path.sh\n'}
+[12.098422] (d435_slam_ros2) StdoutLine: {'line': b'-- Installing: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/share/d435_slam_ros2/environment/ament_prefix_path.dsv\n'}
+[12.098446] (d435_slam_ros2) StdoutLine: {'line': b'-- Installing: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/share/d435_slam_ros2/environment/path.sh\n'}
+[12.098469] (d435_slam_ros2) StdoutLine: {'line': b'-- Installing: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/share/d435_slam_ros2/environment/path.dsv\n'}
+[12.098491] (d435_slam_ros2) StdoutLine: {'line': b'-- Installing: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/share/d435_slam_ros2/local_setup.bash\n'}
+[12.098523] (d435_slam_ros2) StdoutLine: {'line': b'-- Installing: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/share/d435_slam_ros2/local_setup.sh\n'}
+[12.098544] (d435_slam_ros2) StdoutLine: {'line': b'-- Installing: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/share/d435_slam_ros2/local_setup.zsh\n'}
+[12.098565] (d435_slam_ros2) StdoutLine: {'line': b'-- Installing: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/share/d435_slam_ros2/local_setup.dsv\n'}
+[12.098586] (d435_slam_ros2) StdoutLine: {'line': b'-- Installing: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/share/d435_slam_ros2/package.dsv\n'}
+[12.098606] (d435_slam_ros2) StdoutLine: {'line': b'-- Installing: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/share/ament_index/resource_index/packages/d435_slam_ros2\n'}
+[12.098626] (d435_slam_ros2) StdoutLine: {'line': b'-- Installing: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/share/d435_slam_ros2/cmake/d435_slam_ros2Config.cmake\n'}
+[12.098647] (d435_slam_ros2) StdoutLine: {'line': b'-- Installing: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/share/d435_slam_ros2/cmake/d435_slam_ros2Config-version.cmake\n'}
+[12.098667] (d435_slam_ros2) StdoutLine: {'line': b'-- Installing: /home/lx/catkin_ws/d435_slam_ros2/install/d435_slam_ros2/share/d435_slam_ros2/package.xml\n'}
+[12.099461] (d435_slam_ros2) CommandEnded: {'returncode': 0}
+[12.112813] (d435_slam_ros2) JobEnded: {'identifier': 'd435_slam_ros2', 'rc': 0}
+[12.113554] (-) EventReactorShutdown: {}

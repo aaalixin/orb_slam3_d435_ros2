@@ -1,0 +1,4 @@
+[ 50%] Built target g2o
+[ 96%] Built target d435_slam_ros2
+[35m[1mConsolidate compiler generated dependencies of target d435_slam_node[0m
+[ 98%] [32mBuilding CXX object CMakeFiles/d435_slam_node.dir/ros2/main.cpp.o[0m

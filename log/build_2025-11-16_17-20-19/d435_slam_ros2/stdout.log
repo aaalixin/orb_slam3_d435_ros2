@@ -1,0 +1,11 @@
+[ 50%] Built target g2o
+[35m[1mConsolidate compiler generated dependencies of target d435_slam_ros2[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/d435_slam_ros2.dir/src/Tracking.cc.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/d435_slam_ros2.dir/src/System.cc.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/d435_slam_ros2.dir/src/LocalMapping.cc.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/d435_slam_ros2.dir/src/LoopClosing.cc.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/d435_slam_ros2.dir/src/FrameDrawer.cc.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/d435_slam_ros2.dir/src/Atlas.cc.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/d435_slam_ros2.dir/src/Viewer.cc.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/d435_slam_ros2.dir/src/Optimizer.cc.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/d435_slam_ros2.dir/src/Settings.cc.o[0m
