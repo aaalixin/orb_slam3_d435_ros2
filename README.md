@@ -63,10 +63,11 @@ export LD_LIBRARY_PATH=/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/lib:$LD_
 
 export LD_LIBRARY_PATH=/home/lx/catkin_ws/d435_slam_ros2/lib:$LD_LIBRARY_PATH
 
+其中/home/lx/catkin_ws/d435_slam_ros2根据自己的情况进行路径修改
+
 # 然后运行
 ros2 run d435_slam_ros2 d435_slam_node Vocabulary/ORBvoc.txt config/d435.yaml
 
-其中/home/lx/catkin_ws/d435_slam_ros2根据自己的情况进行路径修改
 这样就可以运行ros2包了
 
 ros2 topic list
