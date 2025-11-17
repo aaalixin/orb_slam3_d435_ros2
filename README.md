@@ -1,97 +1,105 @@
-"# orb_slam3_d435_ros2" 
-这个工程是修改的ORB_SLAM3的教程的，修改了部分源码将slam的定位和位姿话题进行了发布，ORB_SLAM3源码地址来自https://github.com/UZ-SLAMLab/ORB_SLAM3
+ORB_SLAM3 D435 ROS2 项目
+项目简介
+本项目基于 ORB_SLAM3 进行开发，主要完成了 ROS2 的适配工作，并针对 Intel RealSense D435 相机进行了优化。项目对原始源码进行了修改，发布了 SLAM 的定位和位姿话题，使其能够更好地在 ROS2 环境中运行。
 
-本人主要进行的ros2适配，并且使用的d435相机
+系统依赖
+在开始使用前，请确保以下依赖已正确安装和配置：
 
-想要使用这个工程先确保部分依赖没有问题， Pangolin和OpenGL要提前配置好
-然后和build.sh教程一样执行以下命令
+Pangolin
 
+OpenGL
+
+构建指南
+1. 构建第三方库
+按照以下步骤构建所需的第三方库：
+
+bash
+# 构建 DBoW2
 echo "Configuring and building Thirdparty/DBoW2 ..."
-
 cd Thirdparty/DBoW2
-
 mkdir build
-
 cd build
-
 cmake .. -DCMAKE_BUILD_TYPE=Release
-
 make -j
 
-
+# 构建 g2o
 cd ../../g2o
-
 echo "Configuring and building Thirdparty/g2o ..."
-
 mkdir build
-
 cd build
-
 cmake .. -DCMAKE_BUILD_TYPE=Release
-
 make -j
 
-
+# 构建 Sophus
 cd ../../Sophus
-
 echo "Configuring and building Thirdparty/Sophus ..."
-
 mkdir build
-
 cd build
-
 cmake .. -DCMAKE_BUILD_TYPE=Release
-
 make -j
-
-
-cd ../../../
-
-echo "Uncompress vocabulary ..."
-
-cd Vocabulary
-
+2. 解压词典文件
+bash
+cd ../../Vocabulary
 tar -xf ORBvoc.txt.tar.gz
-
-结束后执行cd ..回到工程包最外层路径执行
+cd ..
+3. 构建 ROS2 包
+bash
 colcon build
-编译成功后，要运行这个包先在python目录下python3 d435_put.py来发布彩色图和深度图
+运行步骤
+1. 启动相机节点
+bash
+cd python
+python3 d435_put.py
+此脚本将发布彩色图和深度图。
 
-然后新开终端在包最外层路径执行sourse install/setup.bash
-# 设置库路径
+2. 配置环境
+在新终端中，进入项目根目录并执行：
 
+bash
+source install/setup.bash
+
+# 设置库路径（请根据您的实际路径修改）
 export LD_LIBRARY_PATH=/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/DBoW2/lib:$LD_LIBRARY_PATH
-
 export LD_LIBRARY_PATH=/home/lx/catkin_ws/d435_slam_ros2/Thirdparty/g2o/lib:$LD_LIBRARY_PATH
-
 export LD_LIBRARY_PATH=/home/lx/catkin_ws/d435_slam_ros2/lib:$LD_LIBRARY_PATH
-
-其中/home/lx/catkin_ws/d435_slam_ros2根据自己的情况进行路径修改
-
-# 然后运行
+3. 启动 SLAM 节点
+bash
 ros2 run d435_slam_ros2 d435_slam_node Vocabulary/ORBvoc.txt config/d435.yaml
+配置说明
+相机参数配置
+config/d435.yaml 文件中包含了 D435 相机的内参数据。您可以根据自己的相机情况进行调整。
 
-这样就可以运行ros2包了
+获取相机内参的方法：
 
-注意的是config下的d435.yaml里是d435的内参数据，使用时可以根据自己相机情况进行修改，python目录下的d435_put.py里就有获取内参的代码，在注释部分，是通过话题发布内参的，可以先取消注释运行py文件，订阅/d435/info就有相机内参，数据记录后再注释，这些内参在运行SLAM时不需要发布，注释可节省一定的算力，其实也没多少
+取消注释 python/d435_put.py 中的相关代码
 
-ros2 topic list
+运行 python3 d435_put.py
 
-可以看到
+订阅 /d435/info 话题获取相机内参
 
-/d435/camera_pose - 相机位姿
+记录数据后重新注释相关代码以节省计算资源
 
-/d435/trajectory - 轨迹路径
+可用话题
+运行 ros2 topic list 可以查看以下 SLAM 相关话题：
 
-/d435/map_points - 地图点云
+/d435/camera_pose - 相机位姿数据
 
-/d435/current_points - 当前帧点云
+/d435/trajectory - 轨迹路径信息
 
-这几个slam的重要话题可以使用rviz2工具看效果
+/d435/map_points - 地图点云数据
 
-下面是图片效果
+/d435/current_points - 当前帧点云数据
 
-![755092d38a8becf83a3853bc43ed918e](https://github.com/user-attachments/assets/825dbc9f-298b-480c-8f3c-d65fc8d7af3c)
+可视化
+使用 rviz2 工具可以可视化 SLAM 效果：
 
-右上角就是/d435/camera_pose话题的数据，可以看到坐标和位姿数据都有
+https://github.com/user-attachments/assets/825dbc9f-298b-480c-8f3c-d65fc8d7af3c
 
+右上角显示的是 /d435/camera_pose 话题的数据，包含完整的坐标和位姿信息。
+
+注意事项
+请根据您的实际安装路径修改环境变量中的路径
+
+相机内参配置对 SLAM 精度至关重要，请确保准确配置
+
+建议在性能较好的硬件上运行以获得更好的实时性
