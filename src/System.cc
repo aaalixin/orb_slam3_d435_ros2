@@ -1852,32 +1852,19 @@ void System::PublishCameraPose(const Sophus::SE3f& Tcw, double timestamp)
 {
     if(!ros_node_ || !camera_pose_pub_ || !trajectory_pub_ || mbShutDown) return;
     
-    // 转换为世界坐标系下的相机位姿 (Twc)
     Sophus::SE3f Twc = Tcw.inverse();
     
-    // 坐标系转换：从 ORB-SLAM3 (X=右, Y=下, Z=前) 到 ROS (X=前, Y=左, Z=上)
-    // 转换矩阵：
-    // ORB-SLAM3的 Z轴(前)  -> ROS的 X轴(前)
-    // ORB-SLAM3的 X轴(右)  -> ROS的 Y轴(左) 
-    // ORB-SLAM3的 Y轴(下)  -> ROS的 Z轴(上)
-    Eigen::Matrix3f rotation_correction;
-    rotation_correction << 0, 0, 1,   // 第1行: [0, 0, 1]  Z->X
-                          -1, 0, 0,   // 第2行: [-1, 0, 0] X->Y (取反)
-                          0, -1, 0;   // 第3行: [0, -1, 0] Y->Z (取反)
+    Eigen::Vector3f translation = Twc.translation();
+    Eigen::Quaternionf quat = Twc.unit_quaternion();
     
-    // 应用旋转修正到姿态
-    Eigen::Matrix3f corrected_rotation = Twc.rotationMatrix() * rotation_correction;
-    
-    // 应用相同的转换到位置坐标
-    Eigen::Vector3f original_translation = Twc.translation();
-    Eigen::Vector3f corrected_translation;
-    corrected_translation.x() = original_translation.z();  // Z(前) -> X(前)
-    corrected_translation.y() = -original_translation.x(); // X(右) -> Y(左)
-    corrected_translation.z() = -original_translation.y(); // Y(下) -> Z(上)
-    
-    // 创建修正后的位姿
-    Sophus::SO3f corrected_so3(corrected_rotation);
-    Sophus::SE3f corrected_Twc(corrected_so3, corrected_translation);
+    static int debug_count = 0;
+    if(++debug_count % 30 == 0) {
+        std::cout << "=== Camera Pose ===" << std::endl;
+        std::cout << "Position: (" << translation.x() << ", " 
+                  << translation.y() << ", " << translation.z() << ")" << std::endl;
+        std::cout << "Orientation: [" << quat.w() << ", " << quat.x() << ", " 
+                  << quat.y() << ", " << quat.z() << "]" << std::endl;
+    }
     
     // 创建位姿消息
     geometry_msgs::msg::PoseStamped pose_msg;
@@ -1885,16 +1872,14 @@ void System::PublishCameraPose(const Sophus::SE3f& Tcw, double timestamp)
     pose_msg.header.frame_id = "map";
     
     // 设置位置
-    Eigen::Vector3f translation = corrected_Twc.translation();
-    pose_msg.pose.position.x = translation.x();
-    pose_msg.pose.position.y = translation.y();
-    pose_msg.pose.position.z = translation.z();
+    pose_msg.pose.position.x = translation.z();
+    pose_msg.pose.position.y = -translation.x();
+    pose_msg.pose.position.z = -translation.y();
     
-    // 设置姿态（四元数）
-    Eigen::Quaternionf quat = corrected_Twc.unit_quaternion();
-    pose_msg.pose.orientation.x = quat.x();
-    pose_msg.pose.orientation.y = quat.y();
-    pose_msg.pose.orientation.z = quat.z();
+    // 设置姿态
+    pose_msg.pose.orientation.x = quat.z();
+    pose_msg.pose.orientation.y = -quat.x();
+    pose_msg.pose.orientation.z = -quat.y();
     pose_msg.pose.orientation.w = quat.w();
     
     // 发布相机位姿
