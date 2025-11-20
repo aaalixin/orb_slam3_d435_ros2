@@ -1828,16 +1828,13 @@ sensor_msgs::msg::PointCloud2 System::PointCloudToROSMsg(const std::vector<Eigen
         // 计算数据指针位置
         uint8_t* data_ptr = &msg.data[i * msg.point_step];
         
-        // 位置坐标转换：ORB-SLAM3 -> ROS
-        // ORB-SLAM3: X=右, Y=下, Z=前
-        // ROS: X=前, Y=左, Z=上
         float* float_ptr = reinterpret_cast<float*>(data_ptr);
-        float_ptr[0] = point.z();  // Z(前) -> X(前)
-        float_ptr[1] = -point.x(); // X(右) -> Y(左)
-        float_ptr[2] = -point.y(); // Y(下) -> Z(上)
+        float_ptr[0] = point.z();  
+        float_ptr[1] = -point.x(); 
+        float_ptr[2] = -point.y(); 
         
-        // RGB 颜色 (打包为 float)
-        uint8_t r = color[2];  // OpenCV 是 BGR 顺序，所以需要转换
+        // RGB 颜色 
+        uint8_t r = color[2];  
         uint8_t g = color[1];
         uint8_t b = color[0];
         uint32_t rgb_packed = (static_cast<uint32_t>(r) << 16) | 
